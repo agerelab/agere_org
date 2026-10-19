@@ -1,6 +1,6 @@
 import { Controller, Get, ServiceUnavailableException } from "@nestjs/common";
 import { healthSchema } from "@agere/contracts";
-import { pingDatabase } from "./database";
+import { pingDatabase } from "./database.js";
 
 @Controller("v1")
 export class HealthController {

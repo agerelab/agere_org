@@ -4,8 +4,8 @@ import { fileURLToPath } from "node:url";
 import express from "express";
 import { NestFactory } from "@nestjs/core";
 import { ExpressAdapter } from "@nestjs/platform-express";
-import { AppModule } from "./app.module";
-import { EnvelopeFilter } from "./envelope.filter";
+import { AppModule } from "./app.module.js";
+import { EnvelopeFilter } from "./envelope.filter.js";
 
 function loadEnv() {
   const envFile = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../../../.env");

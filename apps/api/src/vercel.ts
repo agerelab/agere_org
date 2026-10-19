@@ -1,5 +1,5 @@
 import type { IncomingMessage, ServerResponse } from "node:http";
-import { createServer } from "./server";
+import { createServer } from "./server.js";
 
 type Handler = (req: IncomingMessage, res: ServerResponse) => void;
 
