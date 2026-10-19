@@ -1,0 +1,133 @@
+
+//
+// AgereTokensDark.swift
+//
+
+// Do not edit directly, this file was auto-generated.
+
+
+import SwiftUI
+
+public enum AgereTokensDark {
+    public static let attentionBg = Color(red: 0.133, green: 0.090, blue: 0.039, opacity: 1)
+    public static let attentionBorder = Color(red: 0.275, green: 0.176, blue: 0.024, opacity: 1)
+    public static let attentionFg = Color(red: 0.902, green: 0.651, blue: 0.310, opacity: 1)
+    public static let attentionIcon = Color(red: 0.902, green: 0.651, blue: 0.310, opacity: 1)
+    public static let attentionOnSolid = Color(red: 0.039, green: 0.039, blue: 0.039, opacity: 1)
+    public static let attentionOnSurface = Color(red: 0.902, green: 0.651, blue: 0.310, opacity: 1) /** Status-coloured text on neutral surfaces (bg.default, bg.muted, bg.surface). Use fg only on the status bg. */
+    public static let attentionSolid = Color(red: 1.000, green: 0.663, blue: 0.039, opacity: 1)
+    public static let attentionSolidHover = Color(red: 1.000, green: 0.706, blue: 0.169, opacity: 1) /** v7 — hover fill for `solid`. Moves toward more contrast with `on-solid` (AGENTS.md: increase contrast on hover). */
+    public static let bgDefault = Color(red: 0.039, green: 0.039, blue: 0.039, opacity: 1)
+    public static let bgEmphasis = Color(red: 0.122, green: 0.122, blue: 0.122, opacity: 1)
+    public static let bgInverted = Color(red: 0.929, green: 0.929, blue: 0.929, opacity: 1)
+    public static let bgMuted = Color(red: 0.000, green: 0.000, blue: 0.000, opacity: 1)
+    public static let bgOverlay = Color(red: 0.000, green: 0.000, blue: 0.000, opacity: 1)
+    public static let bgSubtle = Color(red: 0.102, green: 0.102, blue: 0.102, opacity: 1)
+    public static let bgSurface = Color(red: 0.039, green: 0.039, blue: 0.039, opacity: 1) /** Card & popover surface (shadcn --card / --popover). White in light, neutral.900 in dark. */
+    public static let borderControl = Color(red: 0.478, green: 0.478, blue: 0.478, opacity: 1) /** Form-control boundaries — ≥3:1 vs bg.default and bg.muted (WCAG 1.4.11). shadcn exact (neutral.200) via data-contrast="shadcn". */
+    public static let borderDefault = Color(red: 0.180, green: 0.180, blue: 0.180, opacity: 1)
+    public static let borderEmphasis = Color(red: 0.271, green: 0.271, blue: 0.271, opacity: 1)
+    public static let borderMuted = Color(red: 0.102, green: 0.102, blue: 0.102, opacity: 1)
+    public static let borderSubtle = Color(red: 0.122, green: 0.122, blue: 0.122, opacity: 1)
+    public static let brandAccent = Color(red: 1.000, green: 0.663, blue: 0.039, opacity: 1)
+    public static let brandAccentSubtle = Color(red: 0.133, green: 0.090, blue: 0.039, opacity: 1)
+    public static let brandDefault = Color(red: 0.929, green: 0.929, blue: 0.929, opacity: 1)
+    public static let brandEmphasis = Color(red: 1.000, green: 1.000, blue: 1.000, opacity: 1)
+    public static let brandFg = Color(red: 0.039, green: 0.039, blue: 0.039, opacity: 1)
+    public static let brandSubtle = Color(red: 0.102, green: 0.102, blue: 0.102, opacity: 1)
+    public static let chart1 = Color(red: 0.961, green: 0.286, blue: 0.000, opacity: 1)
+    public static let chart2 = Color(red: 0.000, green: 0.588, blue: 0.537, opacity: 1)
+    public static let chart3 = Color(red: 0.259, green: 0.322, blue: 1.000, opacity: 1)
+    public static let chart4 = Color(red: 0.925, green: 0.275, blue: 0.600, opacity: 1)
+    public static let chart5 = Color(red: 0.545, green: 0.361, blue: 0.965, opacity: 1)
+    public static let errorBg = Color(red: 0.157, green: 0.071, blue: 0.067, opacity: 1)
+    public static let errorBorder = Color(red: 0.333, green: 0.122, blue: 0.114, opacity: 1)
+    public static let errorFg = Color(red: 1.000, green: 0.576, blue: 0.545, opacity: 1)
+    public static let errorIcon = Color(red: 1.000, green: 0.576, blue: 0.545, opacity: 1)
+    public static let errorOnSolid = Color(red: 1.000, green: 1.000, blue: 1.000, opacity: 1)
+    public static let errorOnSurface = Color(red: 1.000, green: 0.576, blue: 0.545, opacity: 1) /** Status-coloured text on neutral surfaces (bg.default, bg.muted, bg.surface). Use fg only on the status bg. */
+    public static let errorSolid = Color(red: 0.882, green: 0.137, blue: 0.188, opacity: 1)
+    public static let errorSolidHover = Color(red: 0.831, green: 0.035, blue: 0.141, opacity: 1) /** v7 — hover fill for `solid`. Moves toward more contrast with `on-solid` (AGENTS.md: increase contrast on hover). */
+    public static let fgDefault = Color(red: 0.929, green: 0.929, blue: 0.929, opacity: 1)
+    public static let fgDisabled = Color(red: 0.478, green: 0.478, blue: 0.478, opacity: 1)
+    public static let fgEmphasis = Color(red: 0.929, green: 0.929, blue: 0.929, opacity: 1)
+    public static let fgInverted = Color(red: 0.039, green: 0.039, blue: 0.039, opacity: 1)
+    public static let fgMuted = Color(red: 0.604, green: 0.604, blue: 0.604, opacity: 1)
+    public static let fgSubtle = Color(red: 0.706, green: 0.706, blue: 0.706, opacity: 1) /** shadcn --muted-foreground. neutral.550 in light keeps ≥4.5:1 on bg.subtle. */
+    public static let focusRing = Color(red: 0.000, green: 0.443, blue: 0.937, opacity: 1)
+    public static let infoBg = Color(red: 0.055, green: 0.102, blue: 0.165, opacity: 1)
+    public static let infoBorder = Color(red: 0.086, green: 0.200, blue: 0.353, opacity: 1)
+    public static let infoFg = Color(red: 0.471, green: 0.714, blue: 1.000, opacity: 1)
+    public static let infoIcon = Color(red: 0.471, green: 0.714, blue: 1.000, opacity: 1)
+    public static let infoOnSolid = Color(red: 1.000, green: 1.000, blue: 1.000, opacity: 1)
+    public static let infoOnSurface = Color(red: 0.471, green: 0.714, blue: 1.000, opacity: 1) /** Status-coloured text on neutral surfaces (bg.default, bg.muted, bg.surface). Use fg only on the status bg. */
+    public static let infoSolid = Color(red: 0.000, green: 0.443, blue: 0.937, opacity: 1)
+    public static let infoSolidHover = Color(red: 0.000, green: 0.396, blue: 0.890, opacity: 1) /** v7 — hover fill for `solid`. Moves toward more contrast with `on-solid` (AGENTS.md: increase contrast on hover). */
+    public static let priorityHigh = Color(red: 0.902, green: 0.651, blue: 0.310, opacity: 1)
+    public static let priorityLow = Color(red: 0.478, green: 0.478, blue: 0.478, opacity: 1)
+    public static let priorityNormal = Color(red: 0.000, green: 0.443, blue: 0.937, opacity: 1)
+    public static let priorityUrgent = Color(red: 0.882, green: 0.137, blue: 0.188, opacity: 1)
+    public static let sidebarAccent = Color(red: 0.102, green: 0.102, blue: 0.102, opacity: 1)
+    public static let sidebarAccentFg = Color(red: 0.929, green: 0.929, blue: 0.929, opacity: 1)
+    public static let sidebarBg = Color(red: 0.000, green: 0.000, blue: 0.000, opacity: 1)
+    public static let sidebarBorder = Color(red: 0.180, green: 0.180, blue: 0.180, opacity: 1)
+    public static let sidebarFg = Color(red: 0.929, green: 0.929, blue: 0.929, opacity: 1)
+    public static let sidebarPrimary = Color(red: 0.929, green: 0.929, blue: 0.929, opacity: 1)
+    public static let sidebarPrimaryFg = Color(red: 0.039, green: 0.039, blue: 0.039, opacity: 1)
+    public static let sidebarRing = Color(red: 0.000, green: 0.443, blue: 0.937, opacity: 1)
+    public static let specialBg = Color(red: 0.118, green: 0.082, blue: 0.157, opacity: 1)
+    public static let specialBorder = Color(red: 0.239, green: 0.145, blue: 0.333, opacity: 1)
+    public static let specialFg = Color(red: 0.824, green: 0.608, blue: 1.000, opacity: 1)
+    public static let specialIcon = Color(red: 0.824, green: 0.608, blue: 1.000, opacity: 1)
+    public static let specialOnSolid = Color(red: 1.000, green: 1.000, blue: 1.000, opacity: 1)
+    public static let specialOnSurface = Color(red: 0.824, green: 0.608, blue: 1.000, opacity: 1) /** Status-coloured text on neutral surfaces (bg.default, bg.muted, bg.surface). Use fg only on the status bg. */
+    public static let specialSolid = Color(red: 0.616, green: 0.278, blue: 0.902, opacity: 1)
+    public static let specialSolidHover = Color(red: 0.573, green: 0.227, blue: 0.855, opacity: 1) /** v7 — hover fill for `solid`. Moves toward more contrast with `on-solid` (AGENTS.md: increase contrast on hover). */
+    public static let successBg = Color(red: 0.059, green: 0.118, blue: 0.067, opacity: 1)
+    public static let successBorder = Color(red: 0.082, green: 0.235, blue: 0.114, opacity: 1)
+    public static let successFg = Color(red: 0.420, green: 0.792, blue: 0.486, opacity: 1)
+    public static let successIcon = Color(red: 0.420, green: 0.792, blue: 0.486, opacity: 1)
+    public static let successOnSolid = Color(red: 1.000, green: 1.000, blue: 1.000, opacity: 1)
+    public static let successOnSurface = Color(red: 0.420, green: 0.792, blue: 0.486, opacity: 1) /** Status-coloured text on neutral surfaces (bg.default, bg.muted, bg.surface). Use fg only on the status bg. */
+    public static let successSolid = Color(red: 0.000, green: 0.541, blue: 0.118, opacity: 1)
+    public static let successSolidHover = Color(red: 0.000, green: 0.494, blue: 0.098, opacity: 1) /** v7 — hover fill for `solid`. Moves toward more contrast with `on-solid` (AGENTS.md: increase contrast on hover). */
+    public static let taskStatusBacklogBg = Color(red: 0.102, green: 0.102, blue: 0.102, opacity: 1)
+    public static let taskStatusBacklogFg = Color(red: 0.706, green: 0.706, blue: 0.706, opacity: 1)
+    public static let taskStatusBacklogSolid = Color(red: 0.478, green: 0.478, blue: 0.478, opacity: 1)
+    public static let taskStatusBlockedBg = Color(red: 0.157, green: 0.071, blue: 0.067, opacity: 1)
+    public static let taskStatusBlockedFg = Color(red: 1.000, green: 0.576, blue: 0.545, opacity: 1)
+    public static let taskStatusBlockedSolid = Color(red: 0.882, green: 0.137, blue: 0.188, opacity: 1)
+    public static let taskStatusCompleteBg = Color(red: 0.059, green: 0.118, blue: 0.067, opacity: 1)
+    public static let taskStatusCompleteFg = Color(red: 0.420, green: 0.792, blue: 0.486, opacity: 1)
+    public static let taskStatusCompleteSolid = Color(red: 0.000, green: 0.541, blue: 0.118, opacity: 1)
+    public static let taskStatusInProgressBg = Color(red: 0.055, green: 0.102, blue: 0.165, opacity: 1)
+    public static let taskStatusInProgressFg = Color(red: 0.471, green: 0.714, blue: 1.000, opacity: 1)
+    public static let taskStatusInProgressSolid = Color(red: 0.000, green: 0.443, blue: 0.937, opacity: 1)
+    public static let taskStatusReviewBg = Color(red: 0.118, green: 0.082, blue: 0.157, opacity: 1)
+    public static let taskStatusReviewFg = Color(red: 0.824, green: 0.608, blue: 1.000, opacity: 1)
+    public static let taskStatusReviewSolid = Color(red: 0.616, green: 0.278, blue: 0.902, opacity: 1)
+    public static let taskStatusTodoBg = Color(red: 0.122, green: 0.122, blue: 0.122, opacity: 1)
+    public static let taskStatusTodoFg = Color(red: 0.929, green: 0.929, blue: 0.929, opacity: 1)
+    public static let taskStatusTodoSolid = Color(red: 0.604, green: 0.604, blue: 0.604, opacity: 1)
+    public static let viz1Emphasis = Color(red: 0.925, green: 0.275, blue: 0.600, opacity: 1)
+    public static let viz1Fg = Color(red: 0.988, green: 0.910, blue: 0.957, opacity: 1)
+    public static let viz1Subtle = Color(red: 0.608, green: 0.090, blue: 0.298, opacity: 1)
+    public static let viz2Emphasis = Color(red: 0.400, green: 0.204, blue: 0.937, opacity: 1)
+    public static let viz2Fg = Color(red: 0.875, green: 0.831, blue: 0.988, opacity: 1)
+    public static let viz2Subtle = Color(red: 0.114, green: 0.039, blue: 0.420, opacity: 1)
+    public static let viz3Emphasis = Color(red: 0.259, green: 0.322, blue: 1.000, opacity: 1)
+    public static let viz3Fg = Color(red: 0.831, green: 0.890, blue: 0.988, opacity: 1)
+    public static let viz3Subtle = Color(red: 0.090, green: 0.125, blue: 0.608, opacity: 1)
+    public static let viz4Emphasis = Color(red: 0.098, green: 0.663, blue: 0.455, opacity: 1)
+    public static let viz4Fg = Color(red: 0.894, green: 0.969, blue: 0.953, opacity: 1)
+    public static let viz4Subtle = Color(red: 0.035, green: 0.404, blue: 0.220, opacity: 1)
+    public static let viz5Emphasis = Color(red: 0.906, green: 0.690, blue: 0.031, opacity: 1)
+    public static let viz5Fg = Color(red: 0.996, green: 0.976, blue: 0.765, opacity: 1)
+    public static let viz5Subtle = Color(red: 0.451, green: 0.247, blue: 0.071, opacity: 1)
+    public static let viz6Emphasis = Color(red: 0.976, green: 0.455, blue: 0.082, opacity: 1)
+    public static let viz6Fg = Color(red: 1.000, green: 0.929, blue: 0.839, opacity: 1)
+    public static let viz6Subtle = Color(red: 0.404, green: 0.145, blue: 0.059, opacity: 1)
+    public static let viz7Emphasis = Color(red: 0.937, green: 0.263, blue: 0.263, opacity: 1)
+    public static let viz7Fg = Color(red: 0.996, green: 0.784, blue: 0.784, opacity: 1)
+    public static let viz7Subtle = Color(red: 0.596, green: 0.106, blue: 0.106, opacity: 1)
+}

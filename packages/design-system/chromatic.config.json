@@ -1,0 +1,9 @@
+{
+  "$schema": "https://www.chromatic.com/config-file.schema.json",
+  "projectId": "Project:agere-ds",
+  "buildScriptName": "build-storybook",
+  "onlyChanged": true,
+  "externals": ["src/styles/**", "tokens/**"],
+  "exitZeroOnChanges": true,
+  "autoAcceptChanges": "main"
+}

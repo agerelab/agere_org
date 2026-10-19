@@ -13,7 +13,7 @@ export const spaceSchema = z.object({
 
 export const healthSchema = z.object({
   status: z.literal("ok"),
-  database: z.literal("not-configured"),
+  database: z.enum(["not-configured", "ok"]),
 });
 
 export const errorEnvelopeSchema = z.object({

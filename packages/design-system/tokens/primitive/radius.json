@@ -1,0 +1,55 @@
+{
+  "radius": {
+    "base": {
+      "$type": "dimension",
+      "$value": "8px",
+      "$description": "v7 — Geist radius scale: controls 6 · cards 8 · menus and dialogs 12 · sheets 16. The preset derives sm/md/lg/xl/2xl from --radius."
+    },
+    "none": {
+      "$type": "dimension",
+      "$value": "0px"
+    },
+    "xs": {
+      "$type": "dimension",
+      "$value": "4px",
+      "$description": "Checkbox (shadcn rounded-[4px])"
+    },
+    "sm": {
+      "$type": "dimension",
+      "$value": "4px"
+    },
+    "md": {
+      "$type": "dimension",
+      "$value": "6px"
+    },
+    "lg": {
+      "$type": "dimension",
+      "$value": "8px"
+    },
+    "control": {
+      "$type": "dimension",
+      "$value": "6px",
+      "$description": "Buttons, inputs, selects (= md, shadcn rounded-md)"
+    },
+    "xl": {
+      "$type": "dimension",
+      "$value": "12px"
+    },
+    "2xl": {
+      "$type": "dimension",
+      "$value": "16px"
+    },
+    "3xl": {
+      "$type": "dimension",
+      "$value": "20px"
+    },
+    "4xl": {
+      "$type": "dimension",
+      "$value": "24px"
+    },
+    "full": {
+      "$type": "dimension",
+      "$value": "9999px"
+    }
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "type": {
+    "$description": "Composite type styles. Use via Tailwind `type-*` classes (e.g. className=\"type-heading-lg\").",
+    "display-2xl": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.semibold}",
+        "fontSize": "{font.size.7xl}",
+        "lineHeight": "{font.line-height.17}",
+        "letterSpacing": "{font.letter-spacing.tighter}"
+      },
+      "$description": "Marketing hero only"
+    },
+    "display-xl": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.semibold}",
+        "fontSize": "{font.size.6xl}",
+        "lineHeight": "{font.line-height.14}",
+        "letterSpacing": "{font.letter-spacing.tighter}"
+      }
+    },
+    "display-lg": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.semibold}",
+        "fontSize": "{font.size.5xl}",
+        "lineHeight": "{font.line-height.11}",
+        "letterSpacing": "{font.letter-spacing.tighter}"
+      }
+    },
+    "display-md": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.semibold}",
+        "fontSize": "{font.size.4xl}",
+        "lineHeight": "{font.line-height.9-5}",
+        "letterSpacing": "{font.letter-spacing.tighter}"
+      }
+    },
+    "heading-xl": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.semibold}",
+        "fontSize": "{font.size.3xl}",
+        "lineHeight": "{font.line-height.8}",
+        "letterSpacing": "{font.letter-spacing.tight}"
+      },
+      "$description": "Page title (H1 in app shell)"
+    },
+    "heading-lg": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.semibold}",
+        "fontSize": "{font.size.2xl}",
+        "lineHeight": "{font.line-height.7}",
+        "letterSpacing": "{font.letter-spacing.tight}"
+      },
+      "$description": "Section title"
+    },
+    "heading-md": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.semibold}",
+        "fontSize": "{font.size.lg}",
+        "lineHeight": "{font.line-height.6}",
+        "letterSpacing": "{font.letter-spacing.tight}"
+      },
+      "$description": "Card / dialog title"
+    },
+    "heading-sm": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.semibold}",
+        "fontSize": "{font.size.md}",
+        "lineHeight": "{font.line-height.5}",
+        "letterSpacing": "{font.letter-spacing.tight}"
+      },
+      "$description": "Group label, table title"
+    },
+    "body-lg": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.regular}",
+        "fontSize": "{font.size.lg}",
+        "lineHeight": "{font.line-height.6}",
+        "letterSpacing": "{font.letter-spacing.normal}"
+      }
+    },
+    "body-md": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.regular}",
+        "fontSize": "{font.size.md}",
+        "lineHeight": "{font.line-height.5}",
+        "letterSpacing": "{font.letter-spacing.normal}"
+      },
+      "$description": "Default UI text"
+    },
+    "body-sm": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.regular}",
+        "fontSize": "{font.size.sm}",
+        "lineHeight": "{font.line-height.4-5}",
+        "letterSpacing": "{font.letter-spacing.normal}"
+      },
+      "$description": "Dense tables, secondary copy"
+    },
+    "label-md": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.medium}",
+        "fontSize": "{font.size.md}",
+        "lineHeight": "{font.line-height.4}",
+        "letterSpacing": "{font.letter-spacing.normal}"
+      },
+      "$description": "Buttons, form labels"
+    },
+    "label-sm": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.medium}",
+        "fontSize": "{font.size.xs}",
+        "lineHeight": "{font.line-height.4}",
+        "letterSpacing": "{font.letter-spacing.normal}"
+      },
+      "$description": "Small buttons, badges"
+    },
+    "caption": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.regular}",
+        "fontSize": "{font.size.xs}",
+        "lineHeight": "{font.line-height.4}",
+        "letterSpacing": "{font.letter-spacing.normal}"
+      },
+      "$description": "Helper text, timestamps"
+    },
+    "overline": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontWeight": "{font.weight.semibold}",
+        "fontSize": "{font.size.2xs}",
+        "lineHeight": "{font.line-height.4}",
+        "letterSpacing": "{font.letter-spacing.caps}"
+      },
+      "$description": "Uppercase section eyebrow"
+    },
+    "code": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.mono}",
+        "fontWeight": "{font.weight.regular}",
+        "fontSize": "{font.size.sm}",
+        "lineHeight": "{font.line-height.5}",
+        "letterSpacing": "{font.letter-spacing.normal}"
+      }
+    }
+  }
+}

@@ -1,12 +1,16 @@
-import { Controller, Get } from "@nestjs/common";
-import { createFakeClient } from "@agere/contracts";
-
-const client = createFakeClient();
+import { Controller, Get, ServiceUnavailableException } from "@nestjs/common";
+import { healthSchema } from "@agere/contracts";
+import { pingDatabase } from "./database";
 
 @Controller("v1")
 export class HealthController {
   @Get("health")
-  health() {
-    return client.health();
+  async health() {
+    try {
+      const database = await pingDatabase();
+      return healthSchema.parse({ status: "ok", database });
+    } catch {
+      throw new ServiceUnavailableException("Database tidak terjangkau");
+    }
   }
 }

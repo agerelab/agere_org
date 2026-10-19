@@ -25,7 +25,7 @@
     "baseUrl": ".",
     "paths": {
       "@/*": [
-        "../../../agere DS/Agere_DS_v7_0/agere-ds/src/*"
+        "../../packages/design-system/src/*"
       ],
       "~/*": [
         "./*"

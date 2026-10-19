@@ -1,0 +1,254 @@
+{
+  "component": {
+    "$description": "Component-tier tokens. Web components consume these via Tailwind classes that match 1:1; native platforms consume the generated values.",
+    "button": {
+      "height": {
+        "xs": {
+          "$type": "dimension",
+          "$value": "24px"
+        },
+        "sm": {
+          "$type": "dimension",
+          "$value": "32px"
+        },
+        "md": {
+          "$type": "dimension",
+          "$value": "40px"
+        },
+        "lg": {
+          "$type": "dimension",
+          "$value": "48px"
+        }
+      },
+      "padding-x": {
+        "xs": {
+          "$type": "dimension",
+          "$value": "8px"
+        },
+        "sm": {
+          "$type": "dimension",
+          "$value": "12px"
+        },
+        "md": {
+          "$type": "dimension",
+          "$value": "16px"
+        },
+        "lg": {
+          "$type": "dimension",
+          "$value": "24px"
+        }
+      },
+      "radius": {
+        "$type": "dimension",
+        "$value": "{radius.control}"
+      },
+      "gap": {
+        "$type": "dimension",
+        "$value": "8px"
+      },
+      "icon-size": {
+        "xs": {
+          "$type": "dimension",
+          "$value": "12px"
+        },
+        "sm": {
+          "$type": "dimension",
+          "$value": "14px"
+        },
+        "md": {
+          "$type": "dimension",
+          "$value": "16px"
+        },
+        "lg": {
+          "$type": "dimension",
+          "$value": "16px"
+        }
+      },
+      "$description": "Heights align with Input (v5): md 36 = input md, lg 40 = input lg (default field)."
+    },
+    "input": {
+      "$description": "Two sizes (v5): lg 40px is the DEFAULT (16px text); md 36px for dense UI (toolbars, filter bars, table footers, popovers).",
+      "height": {
+        "md": {
+          "$type": "dimension",
+          "$value": "40px"
+        },
+        "lg": {
+          "$type": "dimension",
+          "$value": "48px"
+        }
+      },
+      "padding-x": {
+        "md": {
+          "$type": "dimension",
+          "$value": "12px"
+        },
+        "lg": {
+          "$type": "dimension",
+          "$value": "12px"
+        }
+      },
+      "font-size": {
+        "md": {
+          "$type": "dimension",
+          "$value": "{font.size.md}"
+        },
+        "lg": {
+          "$type": "dimension",
+          "$value": "{font.size.lg}"
+        }
+      },
+      "radius": {
+        "$type": "dimension",
+        "$value": "{radius.control}"
+      }
+    },
+    "checkbox": {
+      "size": {
+        "$type": "dimension",
+        "$value": "16px"
+      },
+      "radius": {
+        "$type": "dimension",
+        "$value": "{radius.xs}"
+      }
+    },
+    "radio": {
+      "size": {
+        "$type": "dimension",
+        "$value": "16px"
+      }
+    },
+    "switch": {
+      "width": {
+        "$type": "dimension",
+        "$value": "32px"
+      },
+      "height": {
+        "$type": "dimension",
+        "$value": "18px"
+      },
+      "thumb": {
+        "$type": "dimension",
+        "$value": "16px"
+      }
+    },
+    "badge": {
+      "radius": {
+        "$type": "dimension",
+        "$value": "{radius.md}"
+      },
+      "height-sm": {
+        "$type": "dimension",
+        "$value": "18px"
+      },
+      "height-md": {
+        "$type": "dimension",
+        "$value": "22px"
+      }
+    },
+    "avatar": {
+      "xs": {
+        "$type": "dimension",
+        "$value": "20px"
+      },
+      "sm": {
+        "$type": "dimension",
+        "$value": "24px"
+      },
+      "md": {
+        "$type": "dimension",
+        "$value": "32px"
+      },
+      "lg": {
+        "$type": "dimension",
+        "$value": "40px"
+      },
+      "xl": {
+        "$type": "dimension",
+        "$value": "56px"
+      }
+    },
+    "card": {
+      "radius": {
+        "$type": "dimension",
+        "$value": "{radius.lg}"
+      },
+      "padding": {
+        "$type": "dimension",
+        "$value": "24px"
+      },
+      "gap": {
+        "$type": "dimension",
+        "$value": "24px",
+        "$description": "shadcn Card: py-6 + gap-6 between header / content / footer"
+      }
+    },
+    "dialog": {
+      "radius": {
+        "$type": "dimension",
+        "$value": "{radius.xl}"
+      },
+      "padding": {
+        "$type": "dimension",
+        "$value": "24px"
+      },
+      "width-sm": {
+        "$type": "dimension",
+        "$value": "400px"
+      },
+      "width-md": {
+        "$type": "dimension",
+        "$value": "512px"
+      },
+      "width-lg": {
+        "$type": "dimension",
+        "$value": "640px"
+      }
+    },
+    "popover": {
+      "radius": {
+        "$type": "dimension",
+        "$value": "{radius.xl}"
+      },
+      "padding": {
+        "$type": "dimension",
+        "$value": "4px"
+      }
+    },
+    "tooltip": {
+      "radius": {
+        "$type": "dimension",
+        "$value": "{radius.md}"
+      },
+      "max-width": {
+        "$type": "dimension",
+        "$value": "240px"
+      }
+    },
+    "nav-item": {
+      "height": {
+        "$type": "dimension",
+        "$value": "32px"
+      },
+      "radius": {
+        "$type": "dimension",
+        "$value": "{radius.md}"
+      }
+    },
+    "table": {
+      "row-height": {
+        "$type": "dimension",
+        "$value": "40px"
+      },
+      "row-height-compact": {
+        "$type": "dimension",
+        "$value": "36px"
+      },
+      "header-height": {
+        "$type": "dimension",
+        "$value": "40px"
+      }
+    }
+  }
+}

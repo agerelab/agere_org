@@ -1,0 +1,21 @@
+name: Component proposal
+description: Propose a new component or variant for Agere DS
+labels: [proposal, triage]
+body:
+  - type: textarea
+    id: problem
+    attributes: { label: Problem, description: "What user problem does this solve? Why can't existing components be composed?" }
+    validations: { required: true }
+  - type: textarea
+    id: usecases
+    attributes: { label: Venture use cases (≥ 2), description: "Which ventures need it, with screenshots or flows" }
+    validations: { required: true }
+  - type: textarea
+    id: anatomy
+    attributes: { label: Anatomy & states, description: "Parts, variants, sizes, states (ideal / empty / loading / error / edge)" }
+  - type: input
+    id: apg
+    attributes: { label: WAI-ARIA pattern, placeholder: "https://www.w3.org/WAI/ARIA/apg/patterns/…" }
+  - type: dropdown
+    id: scope
+    attributes: { label: Proposed scope, options: ["Core (all ventures)", "Venture-local first", "Not sure"] }

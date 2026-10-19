@@ -19,7 +19,7 @@ jobs:
       - name: Install and check
         run: |
           pnpm install
-          pnpm --filter @agere/contracts --filter @agere/api typecheck
+          pnpm --filter @agere/contracts --filter @agere/api --filter @agere/web typecheck
           pnpm test
           pnpm secret-scan
           pnpm check:i18n

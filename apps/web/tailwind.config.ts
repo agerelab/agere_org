@@ -1,7 +1,7 @@
 import type { Config } from "tailwindcss";
-import agere from "../../../agere DS/Agere_DS_v7_0/agere-ds/tailwind.preset";
+import agere from "../../packages/design-system/tailwind.preset";
 
-const ds = "../../../agere DS/Agere_DS_v7_0/agere-ds";
+const ds = "../../packages/design-system";
 
 export default {
   presets: [agere],

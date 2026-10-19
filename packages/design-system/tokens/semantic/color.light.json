@@ -1,0 +1,614 @@
+{
+  "bg": {
+    "default": {
+      "$type": "color",
+      "$value": "{color.geist.light.background.100}"
+    },
+    "muted": {
+      "$type": "color",
+      "$value": "{color.geist.light.background.200}"
+    },
+    "subtle": {
+      "$type": "color",
+      "$value": "{color.geist.light.gray.100}"
+    },
+    "emphasis": {
+      "$type": "color",
+      "$value": "{color.geist.light.gray.200}"
+    },
+    "inverted": {
+      "$type": "color",
+      "$value": "{color.geist.light.gray.1000}"
+    },
+    "overlay": {
+      "$type": "color",
+      "$value": "{color.black}",
+      "$description": "Scrim base; use with opacity.scrim"
+    },
+    "surface": {
+      "$type": "color",
+      "$value": "{color.geist.light.background.100}",
+      "$description": "Card & popover surface (shadcn --card / --popover). White in light, neutral.900 in dark."
+    }
+  },
+  "fg": {
+    "emphasis": {
+      "$type": "color",
+      "$value": "{color.geist.light.gray.1000}"
+    },
+    "default": {
+      "$type": "color",
+      "$value": "{color.geist.light.gray.1000}"
+    },
+    "subtle": {
+      "$type": "color",
+      "$value": "{color.geist.light.gray.900}",
+      "$description": "shadcn --muted-foreground. neutral.550 in light keeps ≥4.5:1 on bg.subtle."
+    },
+    "muted": {
+      "$type": "color",
+      "$value": "{color.geist.light.gray.800}"
+    },
+    "disabled": {
+      "$type": "color",
+      "$value": "{color.geist.light.gray.700}"
+    },
+    "inverted": {
+      "$type": "color",
+      "$value": "{color.geist.light.background.100}"
+    }
+  },
+  "border": {
+    "default": {
+      "$type": "color",
+      "$value": "{color.geist.light.gray.400}"
+    },
+    "subtle": {
+      "$type": "color",
+      "$value": "{color.geist.light.gray.200}"
+    },
+    "muted": {
+      "$type": "color",
+      "$value": "{color.geist.light.gray.100}"
+    },
+    "emphasis": {
+      "$type": "color",
+      "$value": "{color.geist.light.gray.500}"
+    },
+    "control": {
+      "$type": "color",
+      "$value": "{color.geist.light.gray.700}",
+      "$description": "Form-control boundaries — ≥3:1 vs bg.default and bg.muted (WCAG 1.4.11). shadcn exact (neutral.200) via data-contrast=\"shadcn\"."
+    }
+  },
+  "brand": {
+    "default": {
+      "$type": "color",
+      "$value": "{color.geist.light.gray.1000}"
+    },
+    "emphasis": {
+      "$type": "color",
+      "$value": "{color.geist.light.contrast-max}"
+    },
+    "subtle": {
+      "$type": "color",
+      "$value": "{color.geist.light.gray.100}"
+    },
+    "fg": {
+      "$type": "color",
+      "$value": "{color.geist.light.background.100}"
+    },
+    "accent": {
+      "$type": "color",
+      "$value": "{color.geist.light.amber.700}"
+    },
+    "accent-subtle": {
+      "$type": "color",
+      "$value": "{color.geist.light.amber.100}"
+    }
+  },
+  "focus": {
+    "ring": {
+      "$type": "color",
+      "$value": "{color.geist.light.blue.700}",
+      "$description": "≥3:1 vs every surface and vs brand.default — brand-independent so white-labels cannot break it"
+    }
+  },
+  "info": {
+    "bg": {
+      "$type": "color",
+      "$value": "{color.geist.light.blue.100}"
+    },
+    "fg": {
+      "$type": "color",
+      "$value": "{color.geist.light.blue.900}"
+    },
+    "border": {
+      "$type": "color",
+      "$value": "{color.geist.light.blue.400}"
+    },
+    "solid": {
+      "$type": "color",
+      "$value": "{color.geist.light.blue.700}"
+    },
+    "on-solid": {
+      "$type": "color",
+      "$value": "{color.geist.light.blue.on-solid}"
+    },
+    "on-surface": {
+      "$type": "color",
+      "$value": "{color.geist.light.blue.900}",
+      "$description": "Status-coloured text on neutral surfaces (bg.default, bg.muted, bg.surface). Use fg only on the status bg."
+    },
+    "icon": {
+      "$type": "color",
+      "$value": "{color.geist.light.blue.900}"
+    },
+    "solid-hover": {
+      "$type": "color",
+      "$value": "{color.geist.light.blue.800}",
+      "$description": "v7 — hover fill for `solid`. Moves toward more contrast with `on-solid` (AGENTS.md: increase contrast on hover)."
+    }
+  },
+  "success": {
+    "bg": {
+      "$type": "color",
+      "$value": "{color.geist.light.green.100}"
+    },
+    "fg": {
+      "$type": "color",
+      "$value": "{color.geist.light.green.900}"
+    },
+    "border": {
+      "$type": "color",
+      "$value": "{color.geist.light.green.400}"
+    },
+    "solid": {
+      "$type": "color",
+      "$value": "{color.geist.light.green.700}"
+    },
+    "on-solid": {
+      "$type": "color",
+      "$value": "{color.geist.light.green.on-solid}"
+    },
+    "on-surface": {
+      "$type": "color",
+      "$value": "{color.geist.light.green.900}",
+      "$description": "Status-coloured text on neutral surfaces (bg.default, bg.muted, bg.surface). Use fg only on the status bg."
+    },
+    "icon": {
+      "$type": "color",
+      "$value": "{color.geist.light.green.900}"
+    },
+    "solid-hover": {
+      "$type": "color",
+      "$value": "{color.geist.light.green.800}",
+      "$description": "v7 — hover fill for `solid`. Moves toward more contrast with `on-solid` (AGENTS.md: increase contrast on hover)."
+    }
+  },
+  "attention": {
+    "bg": {
+      "$type": "color",
+      "$value": "{color.geist.light.amber.100}"
+    },
+    "fg": {
+      "$type": "color",
+      "$value": "{color.geist.light.amber.900}"
+    },
+    "border": {
+      "$type": "color",
+      "$value": "{color.geist.light.amber.400}"
+    },
+    "solid": {
+      "$type": "color",
+      "$value": "{color.geist.light.amber.700}"
+    },
+    "on-solid": {
+      "$type": "color",
+      "$value": "{color.geist.light.amber.on-solid}"
+    },
+    "on-surface": {
+      "$type": "color",
+      "$value": "{color.geist.light.amber.900}",
+      "$description": "Status-coloured text on neutral surfaces (bg.default, bg.muted, bg.surface). Use fg only on the status bg."
+    },
+    "icon": {
+      "$type": "color",
+      "$value": "{color.geist.light.amber.900}"
+    },
+    "solid-hover": {
+      "$type": "color",
+      "$value": "{color.geist.light.amber.800}",
+      "$description": "v7 — hover fill for `solid`. Moves toward more contrast with `on-solid` (AGENTS.md: increase contrast on hover)."
+    }
+  },
+  "error": {
+    "bg": {
+      "$type": "color",
+      "$value": "{color.geist.light.red.100}"
+    },
+    "fg": {
+      "$type": "color",
+      "$value": "{color.geist.light.red.900}"
+    },
+    "border": {
+      "$type": "color",
+      "$value": "{color.geist.light.red.400}"
+    },
+    "solid": {
+      "$type": "color",
+      "$value": "{color.geist.light.red.700}"
+    },
+    "on-solid": {
+      "$type": "color",
+      "$value": "{color.geist.light.red.on-solid}"
+    },
+    "on-surface": {
+      "$type": "color",
+      "$value": "{color.geist.light.red.900}",
+      "$description": "Status-coloured text on neutral surfaces (bg.default, bg.muted, bg.surface). Use fg only on the status bg."
+    },
+    "icon": {
+      "$type": "color",
+      "$value": "{color.geist.light.red.900}"
+    },
+    "solid-hover": {
+      "$type": "color",
+      "$value": "{color.geist.light.red.800}",
+      "$description": "v7 — hover fill for `solid`. Moves toward more contrast with `on-solid` (AGENTS.md: increase contrast on hover)."
+    }
+  },
+  "special": {
+    "bg": {
+      "$type": "color",
+      "$value": "{color.geist.light.purple.100}"
+    },
+    "fg": {
+      "$type": "color",
+      "$value": "{color.geist.light.purple.900}"
+    },
+    "border": {
+      "$type": "color",
+      "$value": "{color.geist.light.purple.400}"
+    },
+    "solid": {
+      "$type": "color",
+      "$value": "{color.geist.light.purple.700}"
+    },
+    "on-solid": {
+      "$type": "color",
+      "$value": "{color.geist.light.purple.on-solid}"
+    },
+    "on-surface": {
+      "$type": "color",
+      "$value": "{color.geist.light.purple.900}",
+      "$description": "Status-coloured text on neutral surfaces (bg.default, bg.muted, bg.surface). Use fg only on the status bg."
+    },
+    "icon": {
+      "$type": "color",
+      "$value": "{color.geist.light.purple.900}"
+    },
+    "solid-hover": {
+      "$type": "color",
+      "$value": "{color.geist.light.purple.800}",
+      "$description": "v7 — hover fill for `solid`. Moves toward more contrast with `on-solid` (AGENTS.md: increase contrast on hover)."
+    }
+  },
+  "viz": {
+    "1": {
+      "subtle": {
+        "$type": "color",
+        "$value": "{color.viz.1.subtle}"
+      },
+      "emphasis": {
+        "$type": "color",
+        "$value": "{color.viz.1.emphasis}"
+      },
+      "fg": {
+        "$type": "color",
+        "$value": "{color.viz.1.fg}"
+      }
+    },
+    "2": {
+      "subtle": {
+        "$type": "color",
+        "$value": "{color.viz.2.subtle}"
+      },
+      "emphasis": {
+        "$type": "color",
+        "$value": "{color.viz.2.emphasis}"
+      },
+      "fg": {
+        "$type": "color",
+        "$value": "{color.viz.2.fg}"
+      }
+    },
+    "3": {
+      "subtle": {
+        "$type": "color",
+        "$value": "{color.viz.3.subtle}"
+      },
+      "emphasis": {
+        "$type": "color",
+        "$value": "{color.viz.3.emphasis}"
+      },
+      "fg": {
+        "$type": "color",
+        "$value": "{color.viz.3.fg}"
+      }
+    },
+    "4": {
+      "subtle": {
+        "$type": "color",
+        "$value": "{color.viz.4.subtle}"
+      },
+      "emphasis": {
+        "$type": "color",
+        "$value": "{color.viz.4.emphasis}"
+      },
+      "fg": {
+        "$type": "color",
+        "$value": "{color.viz.4.fg}"
+      }
+    },
+    "5": {
+      "subtle": {
+        "$type": "color",
+        "$value": "{color.viz.5.subtle}"
+      },
+      "emphasis": {
+        "$type": "color",
+        "$value": "{color.viz.5.emphasis}"
+      },
+      "fg": {
+        "$type": "color",
+        "$value": "{color.viz.5.fg}"
+      }
+    },
+    "6": {
+      "subtle": {
+        "$type": "color",
+        "$value": "{color.viz.6.subtle}"
+      },
+      "emphasis": {
+        "$type": "color",
+        "$value": "{color.viz.6.emphasis}"
+      },
+      "fg": {
+        "$type": "color",
+        "$value": "{color.viz.6.fg}"
+      }
+    },
+    "7": {
+      "subtle": {
+        "$type": "color",
+        "$value": "{color.viz.7.subtle}"
+      },
+      "emphasis": {
+        "$type": "color",
+        "$value": "{color.viz.7.emphasis}"
+      },
+      "fg": {
+        "$type": "color",
+        "$value": "{color.viz.7.fg}"
+      }
+    }
+  },
+  "shadow": {
+    "elevation-0": {
+      "$type": "shadow",
+      "$value": "none"
+    },
+    "elevation-1": {
+      "$type": "shadow",
+      "$value": "0 1px 2px #0000000a"
+    },
+    "elevation-2": {
+      "$type": "shadow",
+      "$value": "0 2px 2px #0000000a, 0 8px 8px -8px #0000000a"
+    },
+    "elevation-3": {
+      "$type": "shadow",
+      "$value": "0 2px 2px #0000000a, 0 8px 16px -4px #0000000a"
+    },
+    "elevation-4": {
+      "$type": "shadow",
+      "$value": "0 1px 1px #00000005, 0 4px 8px -4px #0000000a, 0 16px 24px -8px #0000000f"
+    },
+    "elevation-5": {
+      "$type": "shadow",
+      "$value": "0 1px 1px #00000005, 0 8px 16px -4px #0000000a, 0 24px 32px -8px #0000000f"
+    },
+    "button-solid": {
+      "$type": "shadow",
+      "$value": "none",
+      "$description": "@deprecated since 6.0 (2026-09-25). v7 resolves to none (Geist buttons are flat). Remove in the first major on or after 2026-12-24."
+    },
+    "button-solid-hover": {
+      "$type": "shadow",
+      "$value": "none",
+      "$description": "@deprecated since 6.0 (2026-09-25). v7 resolves to none (Geist buttons are flat). Remove in the first major on or after 2026-12-24."
+    },
+    "button-outline": {
+      "$type": "shadow",
+      "$value": "none",
+      "$description": "@deprecated since 6.0 (2026-09-25). v7 resolves to none (Geist buttons are flat). Remove in the first major on or after 2026-12-24."
+    },
+    "button-solid-active": {
+      "$type": "shadow",
+      "$value": "none",
+      "$description": "@deprecated since 6.0 (2026-09-25). v7 resolves to none (Geist buttons are flat). Remove in the first major on or after 2026-12-24."
+    },
+    "button-outline-active": {
+      "$type": "shadow",
+      "$value": "none",
+      "$description": "@deprecated since 6.0 (2026-09-25). v7 resolves to none (Geist buttons are flat). Remove in the first major on or after 2026-12-24."
+    },
+    "switch-thumb": {
+      "$type": "shadow",
+      "$value": "none"
+    }
+  },
+  "task-status": {
+    "$description": "ClickUp-style workflow status. Shape of StatusIndicator also differs per status (never color alone).",
+    "backlog": {
+      "solid": {
+        "$type": "color",
+        "$value": "{color.geist.light.gray.700}"
+      },
+      "bg": {
+        "$type": "color",
+        "$value": "{color.geist.light.gray.100}"
+      },
+      "fg": {
+        "$type": "color",
+        "$value": "{color.geist.light.gray.900}"
+      }
+    },
+    "todo": {
+      "solid": {
+        "$type": "color",
+        "$value": "{color.geist.light.gray.800}"
+      },
+      "bg": {
+        "$type": "color",
+        "$value": "{color.geist.light.gray.200}"
+      },
+      "fg": {
+        "$type": "color",
+        "$value": "{color.geist.light.gray.1000}"
+      }
+    },
+    "in-progress": {
+      "solid": {
+        "$type": "color",
+        "$value": "{color.geist.light.blue.700}"
+      },
+      "bg": {
+        "$type": "color",
+        "$value": "{color.geist.light.blue.100}"
+      },
+      "fg": {
+        "$type": "color",
+        "$value": "{color.geist.light.blue.900}"
+      }
+    },
+    "review": {
+      "solid": {
+        "$type": "color",
+        "$value": "{color.geist.light.purple.700}"
+      },
+      "bg": {
+        "$type": "color",
+        "$value": "{color.geist.light.purple.100}"
+      },
+      "fg": {
+        "$type": "color",
+        "$value": "{color.geist.light.purple.900}"
+      }
+    },
+    "blocked": {
+      "solid": {
+        "$type": "color",
+        "$value": "{color.geist.light.red.700}"
+      },
+      "bg": {
+        "$type": "color",
+        "$value": "{color.geist.light.red.100}"
+      },
+      "fg": {
+        "$type": "color",
+        "$value": "{color.geist.light.red.900}"
+      }
+    },
+    "complete": {
+      "solid": {
+        "$type": "color",
+        "$value": "{color.geist.light.green.700}"
+      },
+      "bg": {
+        "$type": "color",
+        "$value": "{color.geist.light.green.100}"
+      },
+      "fg": {
+        "$type": "color",
+        "$value": "{color.geist.light.green.900}"
+      }
+    }
+  },
+  "priority": {
+    "$description": "Flag colors. Always paired with the priority word or an aria-label.",
+    "urgent": {
+      "$type": "color",
+      "$value": "{color.geist.light.red.700}"
+    },
+    "high": {
+      "$type": "color",
+      "$value": "{color.geist.light.amber.900}"
+    },
+    "normal": {
+      "$type": "color",
+      "$value": "{color.geist.light.blue.700}"
+    },
+    "low": {
+      "$type": "color",
+      "$value": "{color.geist.light.gray.700}"
+    }
+  },
+  "sidebar": {
+    "bg": {
+      "$type": "color",
+      "$value": "{color.geist.light.background.200}"
+    },
+    "fg": {
+      "$type": "color",
+      "$value": "{color.geist.light.gray.1000}"
+    },
+    "primary": {
+      "$type": "color",
+      "$value": "{color.geist.light.gray.1000}"
+    },
+    "primary-fg": {
+      "$type": "color",
+      "$value": "{color.geist.light.background.100}"
+    },
+    "accent": {
+      "$type": "color",
+      "$value": "{color.geist.light.gray.100}"
+    },
+    "accent-fg": {
+      "$type": "color",
+      "$value": "{color.geist.light.gray.1000}"
+    },
+    "border": {
+      "$type": "color",
+      "$value": "{color.geist.light.gray.400}"
+    },
+    "ring": {
+      "$type": "color",
+      "$value": "{color.geist.light.blue.700}"
+    }
+  },
+  "chart": {
+    "1": {
+      "$type": "color",
+      "$value": "{color.chart.light.1}"
+    },
+    "2": {
+      "$type": "color",
+      "$value": "{color.chart.light.2}"
+    },
+    "3": {
+      "$type": "color",
+      "$value": "{color.chart.light.3}"
+    },
+    "4": {
+      "$type": "color",
+      "$value": "{color.chart.light.4}"
+    },
+    "5": {
+      "$type": "color",
+      "$value": "{color.chart.light.5}"
+    }
+  }
+}

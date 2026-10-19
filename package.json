@@ -14,7 +14,7 @@
     "dev:api": "pnpm --filter @agere/api dev",
     "typecheck": "pnpm -r --filter @agere/contracts --filter @agere/api --filter @agere/web typecheck",
     "test": "pnpm --filter @agere/contracts test",
-    "tokens": "npm --prefix \"../agere DS/Agere_DS_v7_0/agere-ds\" run tokens",
+    "tokens": "npm --prefix packages/design-system run tokens",
     "secret-scan": "node scripts/secret-scan.mjs",
     "check:i18n": "node scripts/check-i18n.mjs",
     "check:ui": "node scripts/check-ui.mjs",

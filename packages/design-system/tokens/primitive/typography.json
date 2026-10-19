@@ -1,0 +1,188 @@
+{
+  "font": {
+    "family": {
+      "sans": {
+        "$type": "fontFamily",
+        "$value": [
+          "Geist Variable",
+          "Geist",
+          "ui-sans-serif",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "Helvetica Neue",
+          "Arial",
+          "sans-serif"
+        ]
+      },
+      "display": {
+        "$type": "fontFamily",
+        "$value": [
+          "Geist Variable",
+          "Geist",
+          "ui-sans-serif",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "Helvetica Neue",
+          "Arial",
+          "sans-serif"
+        ],
+        "$description": "v6: same family as sans (shadcn uses one typeface; hierarchy comes from weight + tracking-tight). Cal Sans retired."
+      },
+      "mono": {
+        "$type": "fontFamily",
+        "$value": [
+          "Geist Mono Variable",
+          "Geist Mono",
+          "ui-monospace",
+          "SFMono-Regular",
+          "SF Mono",
+          "Menlo",
+          "Consolas",
+          "monospace"
+        ]
+      }
+    },
+    "weight": {
+      "regular": {
+        "$type": "fontWeight",
+        "$value": 400
+      },
+      "medium": {
+        "$type": "fontWeight",
+        "$value": 500
+      },
+      "semibold": {
+        "$type": "fontWeight",
+        "$value": 600
+      },
+      "bold": {
+        "$type": "fontWeight",
+        "$value": 700
+      }
+    },
+    "size": {
+      "2xs": {
+        "$type": "dimension",
+        "$value": "10px"
+      },
+      "xs": {
+        "$type": "dimension",
+        "$value": "12px"
+      },
+      "sm": {
+        "$type": "dimension",
+        "$value": "13px"
+      },
+      "md": {
+        "$type": "dimension",
+        "$value": "14px"
+      },
+      "lg": {
+        "$type": "dimension",
+        "$value": "16px"
+      },
+      "xl": {
+        "$type": "dimension",
+        "$value": "18px"
+      },
+      "2xl": {
+        "$type": "dimension",
+        "$value": "20px"
+      },
+      "3xl": {
+        "$type": "dimension",
+        "$value": "24px"
+      },
+      "4xl": {
+        "$type": "dimension",
+        "$value": "30px"
+      },
+      "5xl": {
+        "$type": "dimension",
+        "$value": "36px"
+      },
+      "6xl": {
+        "$type": "dimension",
+        "$value": "48px"
+      },
+      "7xl": {
+        "$type": "dimension",
+        "$value": "60px"
+      }
+    },
+    "line-height": {
+      "3": {
+        "$type": "dimension",
+        "$value": "12px"
+      },
+      "4": {
+        "$type": "dimension",
+        "$value": "16px"
+      },
+      "5": {
+        "$type": "dimension",
+        "$value": "20px"
+      },
+      "6": {
+        "$type": "dimension",
+        "$value": "24px"
+      },
+      "7": {
+        "$type": "dimension",
+        "$value": "28px"
+      },
+      "8": {
+        "$type": "dimension",
+        "$value": "32px"
+      },
+      "11": {
+        "$type": "dimension",
+        "$value": "44px"
+      },
+      "14": {
+        "$type": "dimension",
+        "$value": "56px"
+      },
+      "17": {
+        "$type": "dimension",
+        "$value": "68px"
+      },
+      "4-5": {
+        "$type": "dimension",
+        "$value": "18px"
+      },
+      "9-5": {
+        "$type": "dimension",
+        "$value": "38px"
+      }
+    },
+    "letter-spacing": {
+      "tighter": {
+        "$type": "dimension",
+        "$value": "-0.05em",
+        "$description": "v7 — Geist display tracking (heading-48…72 ≈ -0.05em)."
+      },
+      "tight": {
+        "$type": "dimension",
+        "$value": "-0.025em",
+        "$description": "v7 — Geist heading tracking (heading-16…32 ≈ -0.02…-0.04em)."
+      },
+      "normal": {
+        "$type": "dimension",
+        "$value": "0em"
+      },
+      "wide": {
+        "$type": "dimension",
+        "$value": "0.02em"
+      },
+      "caps": {
+        "$type": "dimension",
+        "$value": "0.06em"
+      }
+    }
+  }
+}

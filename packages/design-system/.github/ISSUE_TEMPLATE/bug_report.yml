@@ -1,0 +1,25 @@
+name: Bug report
+description: Something in Agere DS is broken or inaccessible
+labels: [bug, triage]
+body:
+  - type: input
+    id: component
+    attributes: { label: Component & version, placeholder: "Dialog · 4.0.0" }
+    validations: { required: true }
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      options: ["P1 — blocks a task / a11y blocker / data loss", "P2 — degraded, workaround exists", "P3 — cosmetic / docs"]
+    validations: { required: true }
+  - type: textarea
+    id: steps
+    attributes: { label: Steps to reproduce, description: "Storybook link or minimal snippet" }
+    validations: { required: true }
+  - type: textarea
+    id: expected
+    attributes: { label: Expected vs actual }
+    validations: { required: true }
+  - type: input
+    id: env
+    attributes: { label: Browser / OS / assistive tech, placeholder: "Chrome 140 · macOS · VoiceOver" }

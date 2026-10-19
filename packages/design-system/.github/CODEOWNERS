@@ -1,0 +1,11 @@
+# Agere DS ownership — see CONTRIBUTING.md › Ownership
+*                                   @agere/ds-core
+/tokens/                            @agere/ds-design-eng
+/scripts/build-tokens.mjs           @agere/ds-design-eng
+/tailwind.preset.ts                 @agere/ds-design-eng
+/src/components/ui/                 @agere/ds-core
+/src/components/agere-ds/kanban/    @agere/squad-ops @agere/ds-core
+/src/components/agere-ds/calendar/  @agere/squad-ops @agere/ds-core
+/src/brand/                         @agere/brand
+/assets/brand/                      @agere/brand
+/src/docs/                          @agere/ds-core @agere/content-design

@@ -1,0 +1,81 @@
+{
+  "density": {
+    "$description": "Comfortable vs Compact (ClickUp density toggle). Components read the active set via --ag-row-height etc.; switch with data-density=\"compact\".",
+    "comfortable": {
+      "row-height": {
+        "$type": "dimension",
+        "$value": "40px"
+      },
+      "control-height": {
+        "$type": "dimension",
+        "$value": "32px"
+      },
+      "cell-padding-x": {
+        "$type": "dimension",
+        "$value": "12px"
+      },
+      "cell-padding-y": {
+        "$type": "dimension",
+        "$value": "8px"
+      },
+      "gap": {
+        "$type": "dimension",
+        "$value": "8px"
+      },
+      "font-size": {
+        "$type": "dimension",
+        "$value": "14px"
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": "20px"
+      },
+      "card-padding": {
+        "$type": "dimension",
+        "$value": "12px"
+      },
+      "icon-size": {
+        "$type": "dimension",
+        "$value": "16px"
+      }
+    },
+    "compact": {
+      "row-height": {
+        "$type": "dimension",
+        "$value": "32px"
+      },
+      "control-height": {
+        "$type": "dimension",
+        "$value": "28px"
+      },
+      "cell-padding-x": {
+        "$type": "dimension",
+        "$value": "8px"
+      },
+      "cell-padding-y": {
+        "$type": "dimension",
+        "$value": "4px"
+      },
+      "gap": {
+        "$type": "dimension",
+        "$value": "4px"
+      },
+      "font-size": {
+        "$type": "dimension",
+        "$value": "13px"
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": "18px"
+      },
+      "card-padding": {
+        "$type": "dimension",
+        "$value": "8px"
+      },
+      "icon-size": {
+        "$type": "dimension",
+        "$value": "14px"
+      }
+    }
+  }
+}
