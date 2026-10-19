@@ -1,4 +1,4 @@
-import { healthSchema, organizationSchema, spaceSchema, type OrgClient } from "./schemas";
+import { healthSchema, organizationSchema, spaceSchema, type OrgClient } from "./schemas.js";
 
 async function readJson(response: Response): Promise<unknown> {
   return response.json() as Promise<unknown>;

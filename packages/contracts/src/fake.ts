@@ -1,4 +1,4 @@
-import { healthSchema, organizationSchema, spaceSchema, type OrgClient, type Organization, type Space } from "./schemas";
+import { healthSchema, organizationSchema, spaceSchema, type OrgClient, type Organization, type Space } from "./schemas.js";
 
 const organizations: Organization[] = [
   organizationSchema.parse({

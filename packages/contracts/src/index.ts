@@ -1,4 +1,4 @@
-export { createFakeClient } from "./fake";
-export { createHttpClient } from "./http";
-export { safeReturnPath, errorEnvelopeSchema, healthSchema, organizationSchema, spaceSchema } from "./schemas";
-export type { Health, OrgClient, Organization, Space } from "./schemas";
+export { createFakeClient } from "./fake.js";
+export { createHttpClient } from "./http.js";
+export { safeReturnPath, errorEnvelopeSchema, healthSchema, organizationSchema, spaceSchema } from "./schemas.js";
+export type { Health, OrgClient, Organization, Space } from "./schemas.js";
