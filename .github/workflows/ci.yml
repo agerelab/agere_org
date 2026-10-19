@@ -1,0 +1,27 @@
+name: ci
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.11.1
+      - name: Install and check
+        run: |
+          pnpm install
+          pnpm --filter @agere/contracts --filter @agere/api typecheck
+          pnpm test
+          pnpm secret-scan
+          pnpm check:i18n
+          pnpm check:ui
+          pnpm check:migrations

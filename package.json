@@ -1,0 +1,24 @@
+{
+  "name": "agere-org",
+  "private": true,
+  "packageManager": "pnpm@10.11.1",
+  "engines": {
+    "node": ">=22"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": ["esbuild"]
+  },
+  "scripts": {
+    "dev": "pnpm --parallel --filter @agere/web --filter @agere/api dev",
+    "dev:web": "pnpm --filter @agere/web dev",
+    "dev:api": "pnpm --filter @agere/api dev",
+    "typecheck": "pnpm -r --filter @agere/contracts --filter @agere/api --filter @agere/web typecheck",
+    "test": "pnpm --filter @agere/contracts test",
+    "tokens": "npm --prefix \"../agere DS/Agere_DS_v7_0/agere-ds\" run tokens",
+    "secret-scan": "node scripts/secret-scan.mjs",
+    "check:i18n": "node scripts/check-i18n.mjs",
+    "check:ui": "node scripts/check-ui.mjs",
+    "check:migrations": "node scripts/check-migrations.mjs",
+    "ci": "pnpm tokens && pnpm typecheck && pnpm test && pnpm secret-scan && pnpm check:i18n && pnpm check:ui && pnpm check:migrations"
+  }
+}
